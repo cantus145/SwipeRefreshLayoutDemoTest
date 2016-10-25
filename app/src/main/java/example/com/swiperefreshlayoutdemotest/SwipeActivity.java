@@ -18,23 +18,23 @@ import android.widget.AbsListView.OnScrollListener;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
 
 
-public class SwipeActivity extends AppCompatActivity {
-    String TAG = "SwipeActivity";
-    String TAG_Swipe = "Swipe";
+    public class SwipeActivity extends AppCompatActivity {
+        String TAG = "SwipeActivity";
+        String TAG_Swipe = "Swipe";
 
-    private Context context;
-    private SwipeRefreshLayout laySwipe;
+        private Context context;
+        private SwipeRefreshLayout laySwipe;
 
-    ArrayAdapter<String> stringAdapter;
+        ArrayAdapter<String> stringAdapter;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        context = this;
-        setContentView(R.layout.activity_swipe);
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            context = this;
+            setContentView(R.layout.activity_swipe);
 
-        initView();
-    }
+            initView();
+        }
 
     private void initView() {
         laySwipe = (SwipeRefreshLayout) findViewById(R.id.laySwipe);
