@@ -1,6 +1,8 @@
 /**
  * Android 使用 SwipeRefreshLayout 製作下拉更新 (Pull to Refresh)
  * http://blog.tonycube.com/2014/09/android-swiperefreshlayout-pull-to.html
+ *
+ * git revision test
  */
 package example.com.swiperefreshlayoutdemotest;
 
